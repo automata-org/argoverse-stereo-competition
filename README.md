@@ -78,11 +78,6 @@ The output should be something like this:
 +-----------------------------------------------------------------------------+
 ```
 
-
-##### Windows
-
-TBD
-
 ### Build Docker Image
 
 Build the image inside this repo:
@@ -93,9 +88,6 @@ Build the image inside this repo:
   docker build -t pytorch-cuda 
 ```
 
-#### Windows
-
-TBD
 
 ### Run and Test the Environment
 After building the image you need to run and test if everything works correctly.
@@ -122,9 +114,6 @@ torch.cuda.is_available()
 ```
 If the output is `True` everything is settled up correctly, you can use pytorch with GPU acceleration
 
-#### Windows
-
-TBD
 
 #### CPU acceleration
 If you don't have a GPU card in your system you can run the container without
@@ -148,7 +137,3 @@ import torch
 torch.cuda.is_available()
 ```
 If the output is `False` everything is settled up correctly.
-
-#### Windows
-
-TBD
